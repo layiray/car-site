@@ -1,3 +1,5 @@
+/* filepath: c:\Users\USER\Documents\projects\car-site\src\Components\Hero\Hero.css */
+
 .hero {
     margin: 0px 120px;
     margin-top: 270px;
@@ -62,5 +64,45 @@
 
 .hero-play p {
     color: #fff;
-    font-size: 19px
+    font-size: 19px;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .hero {
+        margin: 0px 20px;
+        margin-top: 150px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-text {
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+    .hero-explore {
+        gap: 20px;
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+
+    .hero-dot-play {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .hero-dots {
+        gap: 15px;
+    }
+
+    .hero-play {
+        gap: 15px;
+    }
+
+    .hero-play p {
+        font-size: 16px;
+    }
 }
